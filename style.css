@@ -1,0 +1,72 @@
+/* Basic styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styling */
+header {
+  background-color: #007bff; /* AITU blue */
+  color: white;
+  padding: 20px 0;
+}
+
+header img {
+  height: 60px;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero section styling */
+.hero {
+  background-image: url("C:/Users/astan/Downloads/Дизайн без названия.jpg"); /* Replace with actual image */
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #f0ad4e; /* AITU orange */
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About section styling */
+.about {
+  padding: 50px 0;
+}
+/* Contact section styling */
+.contact {
+  padding: 50px 0;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
